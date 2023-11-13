@@ -8,7 +8,7 @@ while condition:
   print ("3. Display")
   print ("4. Exit \n")
 
-  print("Your Current Stack Is = ",stack "\n")
+  print("Your Current Stack Is = ",stack)
 
   inputCommand = int(input("Enter Your Choice (1-4): "))
 
