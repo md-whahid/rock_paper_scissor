@@ -10,13 +10,13 @@ while condition:
   print("4. Exit\n")
   print("******************************\n")
 
-  inputComand = int(input("Enter your choise: "))
+  Command = int(input("Enter your choise: "))
 
-  if(inputComand == 1):
+  if(Command == 1):
     myStack = int(input("enter a number: "))
     stack.append(myStack)
 
-  elif(inputComand == 2):
+  elif(Command == 2):
     myStack = int(input("enter index number to delete: "))
     arrayLength = len(stack)
 
@@ -25,10 +25,10 @@ while condition:
       myStack = int(input("enter another index number: "))
     stack.pop(myStack)
 
-  elif(inputComand == 3):
+  elif(Command == 3):
     print(stack)
 
-  elif(inputComand == 4):
+  elif(Command == 4):
     condition = False
     print("You have succesfully Exited :)")
 
